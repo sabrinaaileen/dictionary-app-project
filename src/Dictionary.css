@@ -1,5 +1,19 @@
-.Dictionary {
-  max-width: 800px;
-  padding: 10px 15px;
-  margin: 10px auto;
+.Dictionary section {
+  padding: 20px 25px;
+  margin: 20px 0;
+  /*
+  background: antiquewhite;
+  border-radius: 30px;
+  */
+}
+
+.Dictionary input {
+  width: 100%;
+  padding: 5px 10px;
+  border-radius: 10px;
+  border: none;
+  box-shadow: 2px 4px 4px rgba(0, 0, 0, 0.2);
+}
+li {
+  list-style-type: none;
 }
