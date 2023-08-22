@@ -1,0 +1,13 @@
+.Photos {
+  padding-top: 30px;
+}
+
+.Photo {
+  max-width: 200px;
+  margin: 10px 10px;
+  border-radius: 5px;
+  transition: all 150ms ease-in-out;
+}
+.Photo:hover {
+  transform: scale(1.05);
+}

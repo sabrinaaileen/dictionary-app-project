@@ -1,4 +1,5 @@
 import React from "react";
+import "./Photos.css";
 
 export default function Photos(props) {
   console.log(props.photos);
@@ -9,11 +10,13 @@ export default function Photos(props) {
           {props.photos.map(function (photo, index) {
             return (
               <div className="col-4" key={index}>
-                <img
-                  alt="dictionary"
-                  src={photo.src.portrait}
-                  className="img-fluid"
-                />
+                <a href={photo.src.original} target="_blank" rel="noreferrer">
+                  <img
+                    className="Photo"
+                    alt="dictionary"
+                    src={photo.src.original}
+                  />
+                </a>
               </div>
             );
           })}
