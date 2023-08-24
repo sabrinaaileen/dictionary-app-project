@@ -11,3 +11,19 @@
 .Photo:hover {
   transform: scale(1.05);
 }
+
+@media (max-width: 1000px) {
+  .Photo {
+    max-width: 150px;
+  }
+}
+@media (max-width: 800px) {
+  .Photo {
+    max-width: 100px;
+  }
+}
+@media (max-width: 600px) {
+  .Photo {
+    max-width: 50px;
+  }
+}

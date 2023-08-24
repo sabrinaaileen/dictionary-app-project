@@ -10,22 +10,18 @@ export default function Meanings(props) {
       </h5>
 
       <div className="Meanings">
-        <div className="row">
-          <div className="col-6">
-            <p>
-              Definition: <br />
-              {props.meaning.definition}
-            </p>
-            <p>
-              <em>{props.meaning.example}</em>
-            </p>
-          </div>
-          <div className="col-6">
-            <p>
-              <Synonyms synonyms={props.meaning.synonyms} />
-            </p>
-          </div>
+        <div>
+          <strong>Definition: </strong>
+          <br />
+          {props.meaning.definition}
         </div>
+        <div>
+          <em>{props.meaning.example}</em>
+        </div>
+      </div>
+
+      <div>
+        <Synonyms synonyms={props.meaning.synonyms} />
       </div>
     </div>
   );

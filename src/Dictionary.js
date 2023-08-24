@@ -35,9 +35,13 @@ export default function Dictionary() {
   return (
     <div className="Dictionary">
       <section>
+        <p className="Opener">What word do you want to look up? 😁</p>
         <form onSubmit={searchWord}>
           <input type="search" onChange={handleWordsearch} />
         </form>
+        <p className="Suggestions">
+          Suggetions: fire, sun, love,... Type and try 😉
+        </p>
       </section>
       <Results results={results} />
       <Photos photos={photos} />

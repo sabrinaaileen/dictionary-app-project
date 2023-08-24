@@ -1,8 +1,7 @@
 .App {
-  text-align: center;
   background-color: antiquewhite;
   margin: 0 auto;
-  max-width: 75%;
+  max-width: 800px;
   padding: 30px 60px;
   border-radius: 20px;
 }
@@ -22,6 +21,12 @@ footer a {
   color: rosybrown;
 }
 h1 {
-  font-size: 80px;
+  font-size: 70px;
+  text-align: center;
   color: rosybrown;
+}
+@media (max-width: 800px) {
+  h1 {
+    font-size: 50px;
+  }
 }
