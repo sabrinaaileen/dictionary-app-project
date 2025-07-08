@@ -1,3 +1,60 @@
+# 📚 React Dictionary App
+
+This is a dictionary web app built with React — it allows users to search for words and get detailed results including definitions, examples, synonyms, and related images.
+
+🌐 [Live Demo](https://react-dictionaryapp-project.netlify.app)
+
+---
+
+## ✨ Features
+
+- **Word search** with instant result updates
+- **Definitions** grouped by part of speech
+- **Example sentences** for context
+- **Synonyms** to expand vocabulary
+- **Image search** based on keyword (via SheCodes Images API)
+
+---
+
+## 🔧 Technologies Used
+
+- React.js  
+- HTML5 & CSS3  
+- SheCodes Dictionary API  
+- SheCodes Images API  
+- Netlify (hosting & deployment)
+
+---
+
+## 🎯 Purpose
+
+I created this project as part of a SheCodes React course to practice working with **APIs, dynamic data rendering, and component-based design** in React.  
+It helped me understand how to manage asynchronous requests and conditionally display content in a clean, user-friendly way.
+
+---
+
+## 📚 What I Learned
+
+- How to use external APIs in React  
+- State management and conditional rendering  
+- Styling with CSS and structuring responsive layouts  
+- Creating reusable components  
+- Handling undefined or empty API results gracefully
+
+---
+
+## 🙋‍♀️ About Me
+
+I'm Sabrina – a frontend developer and creative professional with a background in acting. I'm passionate about building interactive, meaningful web experiences.  
+You can see more of my work at:  
+🌍 [sabrina-aileen-hodapp.de](https://www.sabrina-aileen-hodapp.de)
+
+---
+
+Thanks for checking it out! 😊  
+
+___
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
